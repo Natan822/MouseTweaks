@@ -2,7 +2,7 @@ plugins {
     id 'fabric-loom' version '1.6-SNAPSHOT'
 }
 
-def minecraftVersion = "1.20.6" // Used for output JAR filenames.
+def minecraftVersion = "1.20.5" // Used for output JAR filenames.
 
 version = project.mod_version
 group = "yalter.mousetweaks"
@@ -38,7 +38,7 @@ dependencies {
     minecraft "com.mojang:minecraft:${minecraftVersion}"
     mappings loom.officialMojangMappings()
     modImplementation "net.fabricmc:fabric-loader:0.15.10"
-    modImplementation "net.fabricmc.fabric-api:fabric-api:0.97.8+1.20.6"
+    modImplementation "net.fabricmc.fabric-api:fabric-api:0.97.8+1.20.5"
 
     modImplementation 'com.terraformersmc:modmenu:10.0.0-beta.1'
 }
